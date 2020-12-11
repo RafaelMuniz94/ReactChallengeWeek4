@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { FiPlusSquare } from 'react-icons/fi';
 import { Container } from './styles';
 
@@ -17,9 +16,7 @@ const Header: React.FC<IHeaderProps> = ({ openModal }) => (
         <div>
           <button
             type="button"
-            onClick={() => {
-              /* TODO OPEN MODAL */
-            }}
+            onClick={openModal}
           >
             <div className="text">Novo Prato</div>
             <div className="icon">
